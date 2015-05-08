@@ -4,6 +4,7 @@ html
     title Trello Archivist
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag "https://api.trello.com/1/client.js?key=#{VARIABLES[:trello][:application_key]}"
     = csrf_meta_tags
     == yield :head
 

@@ -17,4 +17,7 @@
 /tmp
 
 # Project specific files.
-.idea/
+/.idea/
+
+# Ignore environment variables store
+/.env
